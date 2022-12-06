@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "question": "React is mainly used for building ___.",
+            "choices": ["Database", "User interface", "Design Platform"],
+            "answer": "User interface"
+        },
+        {
+            "question": "The lifecycle methods are mainly used for ___.",
+            "choices": ["keeping track of event history", "enhancing components", "none of the above"],
+            "answer": "none of the above"
+        },
+        {
+            "question": "___ can be done while multiple elements need to be returned from a component.",
+            "choices": ["Abstraction", "Insulation", "Wrapping"],
+            "answer": "Wrapping"
+        },
+        {
+            "question": "Which of the following methods in a React Component should be overridden to stop the component from updating?",
+            "choices": ["willComponentUpdate", "shouldComponentUpdate"],
+            "answer": "shouldComponentUpdate"
+        },
+        {
+            "question": "Which is the right way of accessing a function fetch() from an h1 element in JSX?",
+            "choices": ["<h1>{fetch()}</h1>", "<h1>${fetch()}</h1>", "<h1>{fetch}</h1>"],
+            "answer": "<h1>{fetch()}</h1>"
+        },
+        {
+            "question": "Do I look cute?",
+            "choices": ["yes", "YES but in upper case letter"],
+            "answer": "yes"
+        }
+    ]
+}

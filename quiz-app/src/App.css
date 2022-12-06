@@ -1,0 +1,48 @@
+
+html,
+body,
+#root {
+  height: 100%;
+  background: #A5B4FC;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}
+.btn-custom{
+  background-color: #6ED5B7 !important;
+  padding-top: 2px;
+  padding-bottom: 6px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border: #6ED5B7;
+  border-radius: 0.5em;
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+}
+.card{
+  background-color: #A5B4FC;
+  border: none;
+}
+input[type="radio"] {
+  margin-right: 10px;
+  margin-left: 0;
+}
+.btn-success{
+  margin-right: 12px;
+}
+.btn-secondary {
+  margin-right: 16px;
+}
+.btn-warning {
+  font-size: 19px;
+  padding: 4px 14px;
+}
+.btn-info{
+  color: rgb(238, 227, 227);
+  font-size: 19px;
+  padding: 4.5px 22px;
+}

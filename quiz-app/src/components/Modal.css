@@ -1,0 +1,13 @@
+/* body .active-modal{
+    overflow-y: hidden;
+}
+btn-modal{
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+} */
+
+.active-modal{
+    background: rgba(161, 154, 154, 0.5);
+}
