@@ -17,7 +17,6 @@ function App() {
 // Start Button:
   const quizStartHandler = () => {
     setStep(2);
-    console.log("step =", step);
   };
 // Try Again button:
   const resetClickHandler = () => {
