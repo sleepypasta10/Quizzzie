@@ -24,11 +24,6 @@
             "question": "Which is the right way of accessing a function fetch() from an h1 element in JSX?",
             "choices": ["<h1>{fetch()}</h1>", "<h1>${fetch()}</h1>", "<h1>{fetch}</h1>"],
             "answer": "<h1>{fetch()}</h1>"
-        },
-        {
-            "question": "Do I look cute?",
-            "choices": ["yes", "YES but in upper case letter"],
-            "answer": "yes"
         }
     ]
 }
