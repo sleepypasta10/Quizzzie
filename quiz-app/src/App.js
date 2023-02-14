@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Home from "./components/Home";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
@@ -19,6 +19,7 @@ function App() {
     setStep(2);
   };
 // Try Again button:
+
   const resetClickHandler = () => {
     setShowModal(false);
     setActiveQuestion(0);

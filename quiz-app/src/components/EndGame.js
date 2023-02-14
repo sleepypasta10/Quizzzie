@@ -11,7 +11,7 @@ function EndGame({results, data, onReset, onAnswerCheck}) {
             }
         });
         setCorrectAnswer(correct)
-    }, [])
+    }, [results, data])
 
     return (
         <div className='container mx-auto w-50 h-100'>

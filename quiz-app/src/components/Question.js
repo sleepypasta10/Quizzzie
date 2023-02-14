@@ -9,11 +9,11 @@ const Question = ({answer, onAnswerUpdate, indexOfQuestion, activeQuestion, onSe
 
     useEffect(() => {
         setData(quizData.data[activeQuestion]);
-        if (answer != undefined) {
+        if (answer !== undefined) {
             setSelected(answer.a);
             console.log("run once");
         }
-    }, [data, activeQuestion]);
+    }, [data, activeQuestion, answer]);
 // ==============
 // Chose answer handler:
     const handleChange = (e) => {
